@@ -1,375 +1,329 @@
-[![Sn1per](https://sn1persecurity.com/wordpress/wp-content/uploads/2026/04/sn1per-professional-2026-hero-banner.png)](https://sn1persecurity.com/wordpress/product/sn1per-professional-2026-license/)
-
-[![GitHub release](https://img.shields.io/github/release/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/releases)
-[![License](https://img.shields.io/github/license/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/blob/master/LICENSE.md)
-[![GitHub issues](https://img.shields.io/github/issues/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/issues)
-[![Last commit](https://img.shields.io/github/last-commit/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/commits/master)
-[![Contributors](https://img.shields.io/github/contributors/1N3/Sn1per.svg)](https://github.com/1N3/Sn1per/graphs/contributors)
-
-[![GitHub Stars](https://img.shields.io/github/stars/1N3/Sn1per.svg?style=social&label=Stars)](https://github.com/1N3/Sn1per/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/1N3/Sn1per.svg?style=social&label=Forks)](https://github.com/1N3/Sn1per/network/members)
-[![GitHub Followers](https://img.shields.io/github/followers/1N3.svg?style=social&label=Follow)](https://github.com/1N3)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/xer0dayz.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=xer0dayz)
-
-[[Products](https://sn1persecurity.com/wordpress/shop/)] [[Attack Surface Management](https://sn1persecurity.com/wordpress/use-cases/)] [[About Sn1per](https://sn1persecurity.com/wordpress/about/)] [[News](https://sn1persecurity.com/wordpress/blog/)] [[Contact](https://sn1persecurity.com/wordpress/home/contact/)] [[Demo](https://sn1persecurity.com/wordpress/#video)] [[Pricing](https://sn1persecurity.com/wordpress/product/sn1per-professional-2026-license/)] [[Shop](https://sn1persecurity.com/wordpress/shop/)]
-
-# Sn1per — The Offensive-Security Platform for Modern Teams
-
-> Recon, scanning, exploitation, and reporting in a single workspace — whether you're a solo pentester or a global SOC.
-
-> ## Sn1per Professional 2026 is here
->
-> The largest release since v10.0 — Docker-first deployment, Bootstrap 5 / Tabler UI, Workspace Navigator, Workspace + Host Reports with CSV / Excel / PDF export, JSON API v1.0, an Offcanvas Quick Commands sidebar with 13 panels, and expanded modules for ReverseAPK, MassPwn, Threat Intel, Nessus, and Burp.
->
-> [Read the release notes →](https://sn1persecurity.com/wordpress/sn1per-professional-2026-release/) · [View pricing →](https://sn1persecurity.com/wordpress/product/sn1per-professional-2026-license/)
-
-## Table of Contents
-
-- [About](#about-sn1per)
-- [What Sn1per Is For](#what-sn1per-is-for)
-- [What's New in 2026](#whats-new-in-2026)
-- [Editions & Pricing](#editions--pricing)
-- [Install](#install)
-- [Quick Start](#quick-start)
-- [Usage](#usage)
-- [Scan Modes](#scan-modes)
-- [Integrations](#integrations)
-- [Documentation & Help](#documentation--help)
-- [News & Releases](#news--releases)
-- [Community & Support](#community--support)
-- [Contributing](#contributing)
-- [License & Legal](#license--legal)
-
-## About Sn1per
-
-Sn1per is an offensive-security platform that consolidates reconnaissance, vulnerability scanning, exploitation, and reporting into a single workspace. Built by pentesters since 2015, it ships in three editions — a free Community Edition (source-available, custom EULA — see LICENSE.md) in this repository, a paid Professional edition for individual operators and small teams, and an Enterprise edition for global SOCs — all backed by the same core scanning engine.
-
-Sn1per orchestrates 90+ third-party tools, ships with 600+ exploits and 10,000+ detections, and is used by 500+ teams worldwide. Battle-tested by the community. Built by pentesters, for pentesters.
-
-**500+** Teams · **90+** Integrations · **10,000+** Detections · **600+** Exploits · Trusted since **2015**
-
-## What Sn1per Is For
-
-Sn1per ships as one platform that covers the core jobs offensive security teams otherwise stitch together from a dozen tools:
-
-- **[External Attack Surface Management](https://sn1persecurity.com/wordpress/external-attack-surface-management-with-sn1per/)** - continuous discovery, monitoring, and active exploitation of every internet-facing asset your organization owns, including the ones nobody on your team knows about.
-- **[Continuous Attack Surface Management](https://sn1persecurity.com/wordpress/continuous-attack-surface-management-with-sn1per-professional/)** - daily-cadence rescans that diff yesterday's surface against today's so new exposures hit your SOC within hours, not the next quarterly pentest.
-- **[Automated Penetration Testing](https://sn1persecurity.com/wordpress/automated-penetration-testing/)** - 600+ exploits and 10,000+ detections orchestrated as a single workflow, with active verification eliminating the false positives version-only scanners ship as "critical."
-- **[Reconnaissance & Attack Surface Discovery](https://sn1persecurity.com/wordpress/reconnaissance-methodology/)** - the full phased recon workflow, from OSINT and subdomain enumeration through live-host discovery and fingerprinting, run as one automated pass.
-
-## What's New in 2026
-
-[![Sn1per Pro 2026 Workspace Navigator](https://sn1persecurity.com/wordpress/wp-content/uploads/2026/04/sn1per-pro-2026-workspace-navigator.png)](https://sn1persecurity.com/wordpress/sn1per-professional-2026-release/)
-
-*Workspace Navigator — switch contexts across hosts, scopes, and engagements.*
-
-[![Sn1per Pro 2026 Dashboard](https://sn1persecurity.com/wordpress/wp-content/uploads/2026/04/sn1per-pro-2026-dashboard.png)](https://sn1persecurity.com/wordpress/sn1per-professional-2026-release/)
-
-*Dashboard — at-a-glance scan posture, top findings, and exploitable assets.*
-
-### Highlights
-
-- **Docker-first deployment** — same image, every distro
-- **Bootstrap 5 / Tabler UI** — refreshed responsive interface with light + dark mode
-- **Workspace Navigator** — fast workspace switching with state preservation
-- **Workspace & Host Reports** — CSV, Excel, and PDF export
-- **JSON API v1.0** — programmatic access for CI / SOAR / SIEM pipelines
-- **Offcanvas Quick Commands** — 13 panels, every common action one click away
-- **Expanded modules** — ReverseAPK, MassPwn, Threat Intel, Nessus, Burp Suite
-- **Maturing SC0PE framework** — more parsers, better noise reduction
-- **Hardened PHP library stack** — modern dependencies, audited components
-- **New CLI flags** — `-v` (verbose), `-db` (debug), `-rr` (remove resume files)
-
-> *"Sn1per Professional 2026 is the largest release since the v10.0 line."*
-
-[Read the full release notes →](https://sn1persecurity.com/wordpress/sn1per-professional-2026-release/)
-
-## Editions & Pricing
-
-The [Community Edition](https://sn1persecurity.com/wordpress/sn1per-community-edition/) is free and lives in this repository. The Professional and Enterprise editions add a Web UI, commercial integrations, and email support.
-
-| | **Sn1per Professional** | **Sn1per Enterprise** |
-|---|---|---|
-| **Price** | $984 / year (per seat) | Get a quote |
-| **Subscription** | 1 year | 1 year |
-| **— Included —** | | |
-| Web UI | Professional Web UI | Enterprise Web UI |
-| Scan Engine & UI Updates | ✓ | ✓ |
-| All Modules & Integrations | ✓ | ✓ |
-| On-Prem (Self Hosted) | ✓ | ✓ |
-| Email Support | 1 Year | 1 Year |
-| Improved Speed & Scalability | — | ✓ |
-| Cutting-Edge Features | — | ✓ |
-| **— Limits & Quotas —** | | |
-| Max Scans | Unlimited | Unlimited |
-| Max Assets / Workspace | 30 | Unlimited |
-| Max Workspaces | 5 | Unlimited |
-| Total Assets | 150 | 500+ |
-| Licensed Systems | 1 | 1 |
-
-[Buy a Sn1per Professional license →](https://sn1persecurity.com/wordpress/product/sn1per-professional-2026-license/) · [Get an Enterprise quote →](https://sn1persecurity.com/wordpress/request-a-quote/)
-
-## Install
-
-### Linux (Kali / Ubuntu / Debian / Parrot)
-
-```bash
-git clone https://github.com/1N3/Sn1per.git
-cd Sn1per
-sudo bash install.sh
-```
-
-> Sn1per installs to `/usr/share/sniper` and requires root. Use `sudo bash install.sh force` to skip the confirmation prompt.
-
-### Docker
-
-[Sn1per on Docker Hub →](https://hub.docker.com/r/sn1persecurity/sn1per)
-
-#### Kali Linux base
-
-```bash
-sudo docker compose up
-sudo docker run --privileged -it sn1per-kali-linux /bin/bash
-```
-
-#### BlackArch base
-
-```bash
-sudo docker compose -f docker-compose-blackarch.yml up
-sudo docker run --privileged -it sn1per-blackarch /bin/bash
-```
-
-### AWS Marketplace (EC2 AMI)
-
-Subscribe via [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-rmloab6wnymno):
-
-1. Click **Continue to Subscribe**
-2. Click **Continue to Configuration**, choose region/instance type
-3. Click **Continue to Launch**
-4. SSH to the EC2 public IP — Sn1per is preinstalled
-
-## Quick Start
-
-```bash
-sudo bash install.sh
-sniper -t example.com -m normal
-```
-
-Results land in `/usr/share/sniper/loot/<workspace>/`. See [Usage](#usage) for more modes.
-
-## Usage
-
-```
-[*] NORMAL MODE
-sniper -t <TARGET>
-
-[*] NORMAL MODE + OSINT + RECON
-sniper -t <TARGET> -o -re
-
-[*] STEALTH MODE + OSINT + RECON
-sniper -t <TARGET> -m stealth -o -re
-
-[*] DISCOVER MODE
-sniper -t <CIDR> -m discover -w <WORKSPACE_ALIAS>
-
-[*] SCAN ONLY SPECIFIC PORT
-sniper -t <TARGET> -m port -p <portnum>
-
-[*] FULLPORTONLY SCAN MODE
-sniper -t <TARGET> -fp
-
-[*] WEB MODE - PORT 80 + 443 ONLY!
-sniper -t <TARGET> -m web
-
-[*] HTTP WEB PORT MODE
-sniper -t <TARGET> -m webporthttp -p <port>
-
-[*] HTTPS WEB PORT MODE
-sniper -t <TARGET> -m webporthttps -p <port>
-
-[*] HTTP WEBSCAN MODE
-sniper -t <TARGET> -m webscan
-
-[*] ENABLE BRUTEFORCE
-sniper -t <TARGET> -b
-
-[*] AIRSTRIKE MODE
-sniper -f targets.txt -m airstrike
-
-[*] NUKE MODE WITH TARGET LIST, BRUTEFORCE ENABLED, FULLPORTSCAN ENABLED, OSINT ENABLED, RECON ENABLED, WORKSPACE & LOOT ENABLED
-sniper -f targets.txt -m nuke -w <WORKSPACE_ALIAS>
-
-[*] MASS PORT SCAN MODE
-sniper -f targets.txt -m massportscan
-
-[*] MASS WEB SCAN MODE
-sniper -f targets.txt -m massweb
-
-[*] MASS WEBSCAN SCAN MODE
-sniper -f targets.txt -m masswebscan
-
-[*] MASS VULN SCAN MODE
-sniper -f targets.txt -m massvulnscan
-
-[*] PORT SCAN MODE
-sniper -t <TARGET> -m port -p <PORT_NUM>
-
-[*] LIST WORKSPACES
-sniper --list
-
-[*] DELETE WORKSPACE
-sniper -w <WORKSPACE_ALIAS> -d
-
-[*] DELETE HOST FROM WORKSPACE
-sniper -w <WORKSPACE_ALIAS> -t <TARGET> -dh
-
-[*] GET SNIPER SCAN STATUS
-sniper --status
-
-[*] LOOT REIMPORT FUNCTION
-sniper -w <WORKSPACE_ALIAS> --reimport
-
-[*] LOOT REIMPORTALL FUNCTION
-sniper -w <WORKSPACE_ALIAS> --reimportall
-
-[*] LOOT RELOAD FUNCTION
-sniper -w <WORKSPACE_ALIAS> --reload
-
-[*] LOOT EXPORT FUNCTION
-sniper -w <WORKSPACE_ALIAS> --export
-
-[*] SCHEDULED SCANS
-sniper -w <WORKSPACE_ALIAS> -s daily|weekly|monthly
-
-[*] USE A CUSTOM CONFIG
-sniper -c /path/to/sniper.conf -t <TARGET> -w <WORKSPACE_ALIAS>
-
-[*] UPDATE SNIPER
-sniper -u|--update
-
-[*] VERBOSE OUTPUT (NEW IN 2026)
-sniper -t <TARGET> -m airstrike -v
-
-[*] DEBUG OUTPUT (NEW IN 2026)
-sniper -t <TARGET> -m normal -db
-
-[*] REMOVE RESUME FILES (NEW IN 2026)
-sniper -t <TARGET> -m airstrike -v -rr
-```
-
-## Scan Modes
-
-| Mode | Description |
-|------|-------------|
-| `normal` | Active + passive scan of the target and its open ports |
-| `stealth` | Quick, mostly non-intrusive enumeration to avoid WAF / IPS |
-| `flyover` | Fast multi-threaded high-level scans of many hosts |
-| `airstrike` | Open-port enumeration + basic fingerprinting against a host file |
-| `nuke` | Full audit across all targets in a host file |
-| `discover` | Walks a CIDR and runs Sn1per on every live host |
-| `port` | Targeted scan of a specific port |
-| `fullportonly` | Full TCP port scan, results saved to XML |
-| `web` | Web app scan on `80/tcp` + `443/tcp` only |
-| `webporthttp` / `webporthttps` | Web app scan on a specific HTTP / HTTPS port |
-| `webscan` | Full HTTP + HTTPS web app scan via Burp Suite + Arachni |
-| `vulnscan` | OpenVAS vulnerability scan |
-| `mass*` | Multi-target variants of the above (`-f targets.txt`) |
-
-## Integrations
-
-Sn1per ships with native integrations for **90+ tools and services**. Featured partners:
-
-| Category | Integrations |
-|----------|--------------|
-| **Vulnerability scanners** | [Nessus](https://github.com/1N3/Sn1per/wiki/Nessus-Integration) · [OpenVAS](https://github.com/1N3/Sn1per/wiki/OpenVAS-Integration) · [GVM 21.x](https://github.com/1N3/Sn1per/wiki/GVM-21.x-Integration) · Nuclei |
-| **Web app testing** | [Burp Suite Pro](https://github.com/1N3/Sn1per/wiki/Burpsuite-Professional-2.x-Integration) · [OWASP ZAP](https://github.com/1N3/Sn1per/wiki/OWASP-ZAP-Integration) · [WPScan](https://github.com/1N3/Sn1per/wiki/WPScan-API-Integration) |
-| **Exploitation** | [Metasploit](https://github.com/1N3/Sn1per/wiki/Metasploit-Integration) |
-| **Reconnaissance** | [Shodan](https://github.com/1N3/Sn1per/wiki/Shodan-Integration) · [Censys](https://github.com/1N3/Sn1per/wiki/Censys-API-Integration) · [Hunter.io](https://github.com/1N3/Sn1per/wiki/Hunter.io-API-Integration) · VirusTotal · Nmap |
-| **AI / LLM** | OpenAI · Claude · Gemini |
-| **Notifications & DevOps** | [Slack](https://github.com/1N3/Sn1per/wiki/Slack-API-Integration) · [GitHub API](https://github.com/1N3/Sn1per/wiki/Github-API-Integration) |
-
-[Browse all integrations on the wiki →](https://github.com/1N3/Sn1per/wiki)
-
-## Documentation & Help
-
-- [Getting Started](docs/getting-started.md)
-- [Installation](docs/installation.md)
-- [Configuration](docs/configuration.md)
-- [Usage](docs/usage.md)
-- [Architecture](docs/architecture.md)
-- [Integrations](docs/integrations.md)
-- [Troubleshooting](docs/troubleshooting.md)
-- [Wiki — full reference](https://github.com/1N3/Sn1per/wiki)
-- [Sn1per Documentation Hub](https://sn1persecurity.com/wordpress/documentation/)
-- [Passive Reconnaissance Techniques for Penetration Testers](https://sn1persecurity.com/wordpress/passive-reconnaissance-techniques-for-penetration-testing/)
-- [CVE-2024-21733 — Apache Tomcat HTTP Request Smuggling writeup](https://sn1persecurity.com/wordpress/cve-2024-21733-apache-tomcat-http-request-smuggling/)
-
-### Configuration & Templates
-
-- [Plugins & Tools](https://github.com/1N3/Sn1per/wiki/Plugins-&-Tools)
-- [Scheduled Scans](https://github.com/1N3/Sn1per/wiki/Scheduled-Scans)
-- [Sn1per Configuration Options](https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Options)
-- [Sn1per Configuration Templates](https://github.com/1N3/Sn1per/wiki/Sn1per-Configuration-Templates)
-- [Sc0pe Templates](https://github.com/1N3/Sn1per/wiki/Sc0pe-Templates)
-
-## News & Releases
-
-- **[Sn1per Professional 2026 Released](https://sn1persecurity.com/wordpress/sn1per-professional-2026-release/)** - April 26, 2026
-- [Introducing SILENTCHAIN AI Community Edition v1.1.3](https://sn1persecurity.com/wordpress/introducing-silentchain-ai-community-edition-v1-1-3/) - February 11, 2026
-- [Sn1per SE v11.0 Now Available](https://sn1persecurity.com/wordpress/sn1per-se-v11-released/) - January 8, 2026
-
-### Guides & deep dives (2026)
-
-**Reconnaissance**
-
-- [Reconnaissance Methodology](https://sn1persecurity.com/wordpress/reconnaissance-methodology/) - Sn1per's full recon-to-report workflow, phase by phase, from OSINT to reporting
-- [Subdomain Enumeration](https://sn1persecurity.com/wordpress/subdomain-enumeration/) - passive sources, active brute force, and subdomain-takeover checks
-- [Active Reconnaissance](https://sn1persecurity.com/wordpress/active-reconnaissance/) - port scanning, service and technology fingerprinting, and endpoint discovery
-
-**Penetration testing**
-
-- [Automated Penetration Testing](https://sn1persecurity.com/wordpress/automated-penetration-testing/) - the method, the tooling, and the continuous-testing model
-- [Best Automated Pentest Tools](https://sn1persecurity.com/wordpress/automated-pentest-tools/) - the 2026 open-source and all-in-one pentest tooling landscape
-- [Continuous Penetration Testing (PTaaS)](https://sn1persecurity.com/wordpress/continuous-penetration-testing/) - the always-on model beyond the once-a-year pentest
-
-**Attack surface management**
-
-- [Red Team Attack Surface Management](https://sn1persecurity.com/wordpress/red-team-attack-surface-management/) - running Sn1per as a continuous red-team and adversarial-exposure-validation workflow
-- [Adversarial Exposure Validation](https://sn1persecurity.com/wordpress/adversarial-exposure-validation/) - proving which exposures are actually exploitable, not just present
-- [Continuous Attack Surface Testing](https://sn1persecurity.com/wordpress/continuous-attack-surface-testing/) - daily-cadence rescans that diff yesterday's surface against today's
-- [On-Prem External Attack Surface Management](https://sn1persecurity.com/wordpress/best-on-prem-external-attack-surface-management-platform/) - self-hosted, air-gapped ASM with zero data leaving your perimeter
-- [Open-Source Self-Hosted ASM Tools](https://sn1persecurity.com/wordpress/open-source-self-hosted-attack-surface-management-tools/) - the self-hosted attack surface management tooling landscape
-- [External Attack Surface Management with Sn1per](https://sn1persecurity.com/wordpress/external-attack-surface-management-with-sn1per/) - background reading on the ASM use case
-
-[All releases & blog posts →](https://sn1persecurity.com/wordpress/blog/)
-
-## Community & Support
-
-- **Bugs:** [Open an issue](https://github.com/1N3/Sn1per/issues)
-- **Twitter:** [@xer0dayz](https://twitter.com/xer0dayz)
-- **YouTube:** [Sn1per Security](https://www.youtube.com/c/Sn1perSecurity/videos) - latest demo: [Continuous Attack Surface Testing](https://youtu.be/GBr7vjbGRBA)
-- **Email (Pro / Enterprise customers):** see your license email
-
-## Contributing
-
-Pull requests welcome. For substantial changes, open an issue first to discuss the design.
-
-- Mode scripts live in [`modes/`](modes/) — one bash file per scan mode
-- Test changes against a controlled target before opening a PR
-- Follow [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format in [`CHANGELOG.md`](CHANGELOG.md)
-
-35 contributors and counting. Thank you.
-
-## License & Legal
-
-- **Code:** see [`LICENSE.md`](LICENSE.md) and [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md)
-- **Notices:** see [`NOTICE`](NOTICE)
-- **Trademark:** "Sn1per" and the Sn1per logo are trademarks of Sn1perSecurity LLC. Use in derivative works requires permission. Contact: [sn1persecurity.com](https://sn1persecurity.com)
+<br />
+<div align="center">
+<a href="https://mandiant.github.io/capa/" target="_blank">
+  <img src="https://github.com/mandiant/capa/blob/master/.github/logo.png">
+</a>
+<p align="center">
+  <a href="https://mandiant.github.io/capa/" target="_blank">Website</a>
+  |
+  <a href="https://github.com/mandiant/capa/releases/latest" target="_blank">Download</a>
+  |
+  <a href="https://mandiant.github.io/capa/explorer/" target="_blank">Web Interface</a>
+</p>
+<div align="center">
+
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flare-capa)](https://pypi.org/project/flare-capa)
+[![Last release](https://img.shields.io/github/v/release/mandiant/capa)](https://github.com/mandiant/capa/releases)
+[![Number of rules](https://gist.githubusercontent.com/capa-bot/6d7960e911f48b3b74916df8988cf0f3/raw/rules_badge.svg)](https://github.com/mandiant/capa-rules)
+[![CI status](https://github.com/mandiant/capa/workflows/CI/badge.svg)](https://github.com/mandiant/capa/actions?query=workflow%3ACI+event%3Apush+branch%3Amaster)
+[![Downloads](https://img.shields.io/github/downloads/mandiant/capa/total)](https://github.com/mandiant/capa/releases)
+[![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.txt)
+
+</div>
+</div>
 
 ---
 
-## About Sn1perSecurity
+capa detects capabilities in executable files.
+You run it against a PE, ELF, .NET module, shellcode file, or a sandbox report and it tells you what it thinks the program can do.
+For example, it might suggest that the file is a backdoor, is capable of installing services, or relies on HTTP to communicate.
 
-Sn1per is built and maintained by [Sn1perSecurity](https://sn1persecurity.com), the team behind the [Sn1per attack surface management and automated penetration testing platform](https://sn1persecurity.com/wordpress/external-attack-surface-management-with-sn1per/). Small team of pentesters shipping offensive-security tooling since 2015. We focus on the workflows we want to use ourselves — fast recon, ergonomic reporting, honest pricing, and a Community Edition that genuinely keeps up with the commercial editions. If that resonates, [say hi](https://twitter.com/xer0dayz).
+To interactively inspect capa results in your browser use the [capa Explorer Web](https://mandiant.github.io/capa/explorer/).
 
-**Topics:** `penetration-testing` · `offensive-security` · `attack-surface-management` · `vulnerability-scanner` · `recon` · `osint` · `red-team` · `bug-bounty` · `security-tools`
+If you want to inspect or write capa rules, head on over to the [capa-rules repository](https://github.com/mandiant/capa-rules). Otherwise, keep reading.
+
+Below you find a list of [our capa blog posts with more details.](#blog-posts)
+
+# example capa output
+```
+$ capa.exe suspicious.exe
+
++--------------------+------------------------------------------------------------------------+
+| ATT&CK Tactic      | ATT&CK Technique                                                       |
+|--------------------+------------------------------------------------------------------------|
+| DEFENSE EVASION    | Obfuscated Files or Information [T1027]                                |
+| DISCOVERY          | Query Registry [T1012]                                                 |
+|                    | System Information Discovery [T1082]                                   |
+| EXECUTION          | Command and Scripting Interpreter::Windows Command Shell [T1059.003]   |
+|                    | Shared Modules [T1129]                                                 |
+| EXFILTRATION       | Exfiltration Over C2 Channel [T1041]                                   |
+| PERSISTENCE        | Create or Modify System Process::Windows Service [T1543.003]           |
++--------------------+------------------------------------------------------------------------+
+
++-------------------------------------------+-------------------------------------------------+
+| CAPABILITY                                | NAMESPACE                                       |
+|-------------------------------------------+-------------------------------------------------|
+| read and send data from client to server  | c2/file-transfer                               |
+| execute shell command and capture output  | c2/shell                                       |
+| receive data (2 matches)                  | communication                                   |
+| send data (6 matches)                     | communication                                   |
+| connect to HTTP server (3 matches)        | communication/http/client                       |
+| send HTTP request (3 matches)             | communication/http/client                       |
+| create pipe                               | communication/named-pipe/create                 |
+| get socket status (2 matches)             | communication/socket                            |
+| receive data on socket (2 matches)        | communication/socket/receive                    |
+| send data on socket (3 matches)           | communication/socket/send                       |
+| connect TCP socket                        | communication/socket/tcp                        |
+| encode data using Base64                  | data-manipulation/encoding/base64               |
+| encode data using XOR (6 matches)         | data-manipulation/encoding/xor                  |
+| run as a service                          | executable/pe                                   |
+| get common file path (3 matches)          | host-interaction/file-system                    |
+| read file                                 | host-interaction/file-system/read               |
+| write file (2 matches)                    | host-interaction/file-system/write              |
+| print debug messages (2 matches)          | host-interaction/log/debug/write-event          |
+| resolve DNS                               | host-interaction/network/dns/resolve            |
+| get hostname                              | host-interaction/os/hostname                    |
+| create process                            | host-interaction/process/create                 |
+| create registry key                       | host-interaction/registry/create                |
+| create service                            | host-interaction/service/create                 |
+| create thread                             | host-interaction/thread/create                  |
+| persist via Windows service               | persistence/service                             |
++-------------------------------------------+-------------------------------------------------+
+```
+
+# download and usage
+
+Download stable releases of the standalone capa binaries [here](https://github.com/mandiant/capa/releases). You can run the standalone binaries without installation. capa is a command line tool that should be run from the terminal.
+
+To use capa as a library or integrate with another tool, see [doc/installation.md](https://github.com/mandiant/capa/blob/master/doc/installation.md) for further setup instructions.
+
+**Documentation:** [Usage and tips](doc/usage.md) · [Installation](doc/installation.md) · [Limitations](doc/limitations.md) · [FAQ](doc/faq.md)
+
+# capa Explorer Web
+The [capa Explorer Web](https://mandiant.github.io/capa/explorer/) enables you to interactively explore capa results in your web browser. Besides the online version you can download a standalone HTML file for local offline usage.
+
+![capa Explorer Web screenshot](https://github.com/mandiant/capa/blob/master/doc/img/capa_web_explorer.png)
+
+More details on the web UI is available in the [capa Explorer Web README](https://github.com/mandiant/capa/blob/master/web/explorer/README.md).
+
+# example
+
+In the above sample output, we run capa against an unknown binary (`suspicious.exe`),
+and the tool reports that the program can send HTTP requests, decode data via XOR and Base64,
+install services, and spawn new processes.
+Taken together, this makes us think that `suspicious.exe` could be a persistent backdoor.
+Therefore, our next analysis step might be to run `suspicious.exe` in a sandbox and try to recover the command and control server.
+
+## detailed results
+
+By passing the `-vv` flag (for very verbose), capa reports exactly where it found evidence of these capabilities.
+This is useful for at least two reasons:
+
+  - it helps explain why we should trust the results, and enables us to verify the conclusions, and
+  - it shows where within the binary an experienced analyst might study with IDA Pro
+
+```
+$ capa.exe suspicious.exe -vv
+...
+execute shell command and capture output
+namespace   c2/shell
+author      matthew.williams@mandiant.com
+scope       function
+att&ck      Execution::Command and Scripting Interpreter::Windows Command Shell [T1059.003]
+references  https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa
+function @ 0x4011C0
+  and:
+    match: create a process with modified I/O handles and window @ 0x4011C0
+      and:
+        number: 257 = STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW @ 0x4012B8
+        or:
+          number: 68 = StartupInfo.cb (size) @ 0x401282
+        or: = API functions that accept a pointer to a STARTUPINFO structure
+          api: kernel32.CreateProcess @ 0x401343
+    match: create pipe @ 0x4011C0
+      or:
+        api: kernel32.CreatePipe @ 0x40126F, 0x401280
+    optional:
+      match: create thread @ 0x40136A, 0x4013BA
+        or:
+          and:
+            os: windows
+            or:
+              api: kernel32.CreateThread @ 0x4013D7
+        or:
+          and:
+            os: windows
+            or:
+              api: kernel32.CreateThread @ 0x401395
+    or:
+      string: "cmd.exe" @ 0x4012FD
+...
+```
+
+# dynamic capa
+capa also supports dynamic capabilities detection for multiple sandboxes including:
+* [CAPE](https://github.com/kevoreilly/CAPEv2) (supported report formats: `.json`, `.json_`, `.json.gz`)
+* [DRAKVUF](https://github.com/CERT-Polska/drakvuf-sandbox/) (supported report formats: `.log`, `.log.gz`)
+* [VMRay](https://www.vmray.com/) (supported report formats: analysis archive `.zip`)
+
+
+To use this feature, submit your file to a supported sandbox and then download and run capa against the generated report file. This feature enables capa to match capabilities against dynamic and static features that the sandbox captured during execution.
+
+Here's an example of running capa against a packed file, and then running capa against the CAPE report generated for the same packed file:
+
+```yaml
+$ capa 05be49819139a3fdcdbddbdefd298398779521f3d68daa25275cc77508e42310.exe
+WARNING:capa.capabilities.common:--------------------------------------------------------------------------------
+WARNING:capa.capabilities.common: This sample appears to be packed.
+WARNING:capa.capabilities.common: 
+WARNING:capa.capabilities.common: Packed samples have often been obfuscated to hide their logic.
+WARNING:capa.capabilities.common: capa cannot handle obfuscation well using static analysis. This means the results may be misleading or incomplete.
+WARNING:capa.capabilities.common: If possible, you should try to unpack this input file before analyzing it with capa.
+WARNING:capa.capabilities.common: Alternatively, run the sample in a supported sandbox and invoke capa against the report to obtain dynamic analysis results.
+WARNING:capa.capabilities.common: 
+WARNING:capa.capabilities.common: Identified via rule: (internal) packer file limitation
+WARNING:capa.capabilities.common: 
+WARNING:capa.capabilities.common: Use -v or -vv if you really want to see the capabilities identified by capa.
+WARNING:capa.capabilities.common:--------------------------------------------------------------------------------
+
+$ capa 05be49819139a3fdcdbddbdefd298398779521f3d68daa25275cc77508e42310.json
+
+┍━━━━━━━━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑
+│ ATT&CK Tactic          │ ATT&CK Technique                                                                   │
+┝━━━━━━━━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┥
+│ CREDENTIAL ACCESS      │ Credentials from Password Stores T1555                                             │
+├────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ DEFENSE EVASION        │ File and Directory Permissions Modification T1222                                  │
+│                        │ Modify Registry T1112                                                              │
+│                        │ Obfuscated Files or Information T1027                                              │
+│                        │ Virtualization/Sandbox Evasion::User Activity Based Checks T1497.002               │
+├────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ DISCOVERY              │ Account Discovery T1087                                                            │
+│                        │ Application Window Discovery T1010                                                 │
+│                        │ File and Directory Discovery T1083                                                 │
+│                        │ Query Registry T1012                                                               │
+│                        │ System Information Discovery T1082                                                 │
+│                        │ System Location Discovery::System Language Discovery T1614.001                     │
+│                        │ System Owner/User Discovery T1033                                                  │
+├────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ EXECUTION              │ System Services::Service Execution T1569.002                                       │
+├────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ PERSISTENCE            │ Boot or Logon Autostart Execution::Registry Run Keys / Startup Folder T1547.001    │
+│                        │ Boot or Logon Autostart Execution::Winlogon Helper DLL T1547.004                   │
+│                        │ Create or Modify System Process::Windows Service T1543.003                         │
+┕━━━━━━━━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙
+
+┍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┯━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┑
+│ Capability                                           │ Namespace                                            │
+┝━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┥
+│ check for unmoving mouse cursor (3 matches)          │ anti-analysis/anti-vm/vm-detection                   │
+│ gather bitkinex information                          │ collection/file-managers                             │
+│ gather classicftp information                        │ collection/file-managers                             │
+│ gather filezilla information                         │ collection/file-managers                             │
+│ gather total-commander information                   │ collection/file-managers                             │
+│ gather ultrafxp information                          │ collection/file-managers                             │
+│ resolve DNS (23 matches)                             │ communication/dns                                    │
+│ initialize Winsock library (7 matches)               │ communication/socket                                 │
+│ act as TCP client (3 matches)                        │ communication/tcp/client                             │
+│ create new key via CryptAcquireContext               │ data-manipulation/encryption                         │
+│ encrypt or decrypt via WinCrypt                      │ data-manipulation/encryption                         │
+│ hash data via WinCrypt                               │ data-manipulation/hashing                            │
+│ initialize hashing via WinCrypt                      │ data-manipulation/hashing                            │
+│ hash data with MD5                                   │ data-manipulation/hashing/md5                        │
+│ generate random numbers via WinAPI                   │ data-manipulation/prng                               │
+│ extract resource via kernel32 functions (2 matches)  │ executable/resource                                  │
+│ interact with driver via control codes (2 matches)   │ host-interaction/driver                              │
+│ get Program Files directory (18 matches)             │ host-interaction/file-system                         │
+│ get common file path (575 matches)                   │ host-interaction/file-system                         │
+│ create directory (2 matches)                         │ host-interaction/file-system/create                  │
+│ delete file                                          │ host-interaction/file-system/delete                  │
+│ get file attributes (122 matches)                    │ host-interaction/file-system/meta                    │
+│ set file attributes (8 matches)                      │ host-interaction/file-system/meta                    │
+│ move file                                            │ host-interaction/file-system/move                    │
+│ find taskbar (3 matches)                             │ host-interaction/gui/taskbar/find                    │
+│ get keyboard layout (12 matches)                     │ host-interaction/hardware/keyboard                   │
+│ get disk size                                        │ host-interaction/hardware/storage                    │
+│ get hostname (4 matches)                             │ host-interaction/os/hostname                         │
+│ allocate or change RWX memory (3 matches)            │ host-interaction/process/inject                      │
+│ query or enumerate registry key (3 matches)          │ host-interaction/registry                            │
+│ query or enumerate registry value (8 matches)        │ host-interaction/registry                            │
+│ delete registry key                                  │ host-interaction/registry/delete                     │
+│ start service                                        │ host-interaction/service/start                       │
+│ get session user name                                │ host-interaction/session                             │
+│ persist via Run registry key                         │ persistence/registry/run                             │
+│ persist via Winlogon Helper DLL registry key         │ persistence/registry/winlogon-helper                 │
+│ persist via Windows service (2 matches)              │ persistence/service                                  │
+┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┷━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┙
+```
+
+# capa rules
+capa uses a collection of rules to identify capabilities within a program.
+These rules are easy to write, even for those new to reverse engineering.
+By authoring rules, you can extend the capabilities that capa recognizes.
+In some regards, capa rules are a mixture of the OpenIOC, Yara, and YAML formats.
+
+Here's an example rule used by capa:
+
+```yaml
+rule:
+  meta:
+    name: create TCP socket
+    namespace: communication/socket/tcp
+    authors:
+      - william.ballenthin@mandiant.com
+      - joakim@intezer.com
+      - anushka.virgaonkar@mandiant.com
+    scopes:
+      static: basic block
+      dynamic: call
+    mbc:
+      - Communication::Socket Communication::Create TCP Socket [C0001.011]
+    examples:
+      - Practical Malware Analysis Lab 01-01.dll_:0x10001010
+  features:
+    - or:
+      - and:
+        - number: 6 = IPPROTO_TCP
+        - number: 1 = SOCK_STREAM
+        - number: 2 = AF_INET
+        - or:
+          - api: ws2_32.socket
+          - api: ws2_32.WSASocket
+          - api: socket
+      - property/read: System.Net.Sockets.TcpClient::Client
+```
+
+The [github.com/mandiant/capa-rules](https://github.com/mandiant/capa-rules) repository contains hundreds of standard rules that are distributed with capa.
+Please learn to write rules and contribute new entries as you find interesting techniques in malware.
+
+# IDA Pro plugin: capa explorer
+If you use IDA Pro, then you can use the [capa explorer](https://github.com/mandiant/capa/tree/master/capa/ida/plugin) plugin.
+capa explorer helps you identify interesting areas of a program and build new capa rules using features extracted directly from your IDA Pro database.
+It also uses your local changes to the .idb to extract better features, such as when you rename a global variable that contains a dynamically resolved API address.
+
+![capa + IDA Pro integration](https://github.com/mandiant/capa/blob/master/doc/img/explorer_expanded.png)
+
+# Ghidra integration
+
+capa supports using Ghidra (via [PyGhidra](https://github.com/NationalSecurityAgency/ghidra/tree/master/Ghidra/Features/PyGhidra)) as a feature extraction backend. This allows you to run capa against binaries using Ghidra's analysis engine.
+
+You can run and view capa results in the Ghidra UI using [capa explorer for Ghidra](https://github.com/mandiant/capa/tree/master/capa/ghidra/plugin).
+
+<img src="https://github.com/mandiant/capa/assets/66766340/eeae33f4-99d4-42dc-a5e8-4c1b8c661492" width=300>
+
+You can also run capa from the command line using the [Ghidra backend](https://github.com/mandiant/capa/tree/master/capa/ghidra).
+
+# blog posts
+- [Riding Dragons: capa Harnesses Ghidra](https://www.mandiant.com/resources/blog/capa-harnesses-ghidra)
+- [Dynamic capa: Exploring Executable Run-Time Behavior with the CAPE Sandbox](https://www.mandiant.com/resources/blog/dynamic-capa-executable-behavior-cape-sandbox)
+- [capa v4: casting a wider .NET](https://www.mandiant.com/resources/blog/capa-v4-casting-wider-net) (.NET support)
+- [ELFant in the Room – capa v3](https://www.mandiant.com/resources/elfant-in-the-room-capa-v3) (ELF support)
+- [capa 2.0: Better, Stronger, Faster](https://www.mandiant.com/resources/capa-2-better-stronger-faster)
+- [capa: Automatically Identify Malware Capabilities](https://www.mandiant.com/resources/capa-automatically-identify-malware-capabilities)
+
+# further information
+## capa
+- [Installation](https://github.com/mandiant/capa/blob/master/doc/installation.md)
+- [Usage](https://github.com/mandiant/capa/blob/master/doc/usage.md)
+- [Limitations](https://github.com/mandiant/capa/blob/master/doc/limitations.md)
+- [Contributing Guide](https://github.com/mandiant/capa/blob/master/.github/CONTRIBUTING.md)
+
+## capa rules
+- [capa-rules repository](https://github.com/mandiant/capa-rules)
+- [capa-rules rule format](https://github.com/mandiant/capa-rules/blob/master/doc/format.md)
+
+## capa testfiles
+The [capa-testfiles repository](https://github.com/mandiant/capa-testfiles) contains the data we use to test capa's code and rules
+
+## mailing list
+Subscribe to the FLARE mailing list for community announcements! Email "subscribe" to [flare-external@google.com](mailto:flare-external@google.com?subject=subscribe).
