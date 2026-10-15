@@ -1,0 +1,36 @@
+[package]
+name = "ollama-proxy-rs"
+version = "0.1.1"
+edition = "2021"
+authors = ["Andrew Rosborough <arosborough@oculat.us>"]
+license = "MIT"
+description = "A lightweight Rust proxy for Ollama that intelligently adjusts request parameters to match each model's training configuration"
+repository = "https://github.com/arosboro/ollama-proxy"
+homepage = "https://github.com/arosboro/ollama-proxy"
+documentation = "https://docs.rs/ollama-proxy-rs"
+readme = "README.md"
+keywords = ["ollama", "proxy", "ai", "llm", "embeddings"]
+categories = ["network-programming", "api-bindings"]
+
+[[bin]]
+name = "ollama-proxy"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1.40", features = ["full"] }
+axum = "0.7"
+reqwest = { version = "0.12", features = ["json", "stream"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tower = "0.4"
+tower-http = { version = "0.5", features = ["trace"] }
+http-body-util = "0.1"
+hyper = { version = "1.4", features = ["full"] }
+bytes = "1.7"
+uuid = { version = "1.0", features = ["v4"] }
+chrono = "0.4"
+futures = "0.3"
+tokio-stream = "0.1"
+
